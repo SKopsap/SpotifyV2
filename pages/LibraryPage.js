@@ -8,8 +8,6 @@ export default async function LibraryPage() {
       ${Sidebar()}
     </div>
     <main>
-      <h3>AlbumPage</h3>
-      <h6></h6>
     </main>
     <footer>
       ${Playbar()}
