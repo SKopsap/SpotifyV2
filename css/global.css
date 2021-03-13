@@ -19,6 +19,16 @@ main {
   padding: 2rem !important;
 }
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 90px;
+  width: 100%;
+  background-color: #272626;
+  color: #fff;
+}
+
 .truncate {
   text-overflow: ellipsis;
   /* Needed to make it work */

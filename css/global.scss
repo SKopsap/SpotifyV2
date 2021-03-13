@@ -19,10 +19,24 @@ nav {
 
 main {
   background: rgb(18, 18, 18);
-  background: linear-gradient(0deg, rgba(18, 18, 18, 1) 42%, rgba(60, 12, 14, 0.9700922605370274) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(18, 18, 18, 1) 42%,
+    rgba(60, 12, 14, 0.9700922605370274) 100%
+  );
   min-width: 100vw;
   min-height: 100vh;
   padding: 2rem !important;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 90px;
+  width: 100%;
+  background-color: #272626;
+  color: #fff;
 }
 
 .truncate {
@@ -84,3 +98,5 @@ main {
 //   text-transform: uppercase;
 //   transform: translateX(-50%);
 // }
+
+//PLAYBAR STYLES

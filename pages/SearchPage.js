@@ -1,7 +1,8 @@
-import { Sidebar } from '../containers/Sidebar.js'
+import { Sidebar } from "../containers/Sidebar.js";
+import { Playbar } from "../components/PlaybarComponent.js";
 
 function SearchPage({ user }, path) {
-  const state = {}
+  const state = {};
 
   return /*html*/ `
       <div class="d-flex">
@@ -12,8 +13,12 @@ function SearchPage({ user }, path) {
           <h3>Profile</h3>
           <h6>${user.firstname}</h6>
         </main>
+        <footer>
+      ${Playbar()}
+    </footer>
+
       </div>
-    `
+    `;
 }
 
-export default SearchPage
+export default SearchPage;
