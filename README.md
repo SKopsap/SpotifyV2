@@ -48,7 +48,7 @@ Main branch        |
 |                  | /   ex. branch: toni/header-img-fix  
 |                  |/ 
 |                  |
-main ------------ dev <------> freature branches (Ekow, Toni, Enrico & Sean)
+main ------------ dev <------> freature branches (Ekow, Toni, Huseyin & Sean)
 
 ```
 
