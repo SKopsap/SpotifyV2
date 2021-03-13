@@ -1,6 +1,5 @@
 function Playbar() {
   return /*html*/ `
-    
          <div class="container-fluid d-flex align-items-center justify-content-between">
            <div class="d-flex align-items-center mt-3">
             <img style="height: 58px; width: 58px" src="/assets-playerbar/current-song.jfif" alt="current-song" />
@@ -30,15 +29,9 @@ function Playbar() {
            <img class="mx-2" src="/assets-playerbar/mute.svg" alt=""/>
            <input style="width:30%; height:3px;" type="range" name="" min="0" value="0" max="100" />
            </div>
-         
-         
-         
-         
          </div>
-    
-    
-    
-    `;
+
+    `
 }
 
-export { Playbar };
+export { Playbar }

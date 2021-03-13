@@ -4,7 +4,7 @@ import { router } from './router.js'
 // pages
 import HomePage from './pages/HomePage.js'
 import SearchPage from './pages/SearchPage.js'
-import AlbumPage from './pages/AlbumPage.js'
+import LibraryPage from './pages/LibraryPage.js'
 
 function App() {
   const state = {
@@ -41,7 +41,7 @@ function App() {
   const routes = [
     { path: '/', component: HomePage },
     { path: '/search', component: SearchPage },
-    { path: '/album', component: AlbumPage }
+    { path: '/library', component: LibraryPage }
   ]
 
   // pass routes object and also global app state down to each page

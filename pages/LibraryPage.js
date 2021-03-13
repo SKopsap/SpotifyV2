@@ -1,6 +1,7 @@
-import { Sidebar } from "../containers/Sidebar.js";
-import { Playbar } from "../components/PlaybarComponent.js";
-export default async function AlbumPage() {
+import { Sidebar } from '../containers/Sidebar.js'
+import { Playbar } from '../components/PlaybarComponent.js'
+
+export default async function LibraryPage() {
   return /*html*/ `
   <div class="d-flex">
     ${Sidebar()}
@@ -12,5 +13,5 @@ export default async function AlbumPage() {
       ${Playbar()}
     </footer>
   </div>
-  `;
+  `
 }
