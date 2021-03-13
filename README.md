@@ -3,7 +3,7 @@
 </div>
 <br>
 
-#### BW1 Spotify Clone
+#### Spotify V2
 
 > Our first build week project - a clone of the Spotify Web App.
 <img width="500" alt="Spotify clone homepage" src="./assets/readme/screenshot1.PNG"> 
