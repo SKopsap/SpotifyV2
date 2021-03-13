@@ -1,6 +1,7 @@
 import { Card } from '../components/CardComponent.js'
 
 function Section(title, data) {
+  // make more cards
   function cardList() {
     return `
       ${data.map((data) => `${Card(data)}`).join('')}
