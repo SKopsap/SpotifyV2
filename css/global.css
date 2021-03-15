@@ -568,11 +568,21 @@ nav a:hover {
 
 main {
   background: #121212;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(42%, #121212), to(rgba(60, 12, 14, 0.970092)));
-  background: linear-gradient(0deg, #121212 42%, rgba(60, 12, 14, 0.970092) 100%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(42%, #121212), to(rgba(77, 15, 28, 0.97)));
+  background: linear-gradient(0deg, #121212 42%, rgba(77, 15, 28, 0.97) 100%);
   min-width: 100vw;
   min-height: 100vh;
   padding: 2rem !important;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}
+
+input:active {
+  outline: none;
+  border: none;
 }
 
 footer {

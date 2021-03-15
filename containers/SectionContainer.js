@@ -10,7 +10,7 @@ function Section(title, data) {
 
   return /*html*/ `
     <section class="mt-3">
-      <h3 class="text-white mb-3">${title}</h3>
+      <h4 class="text-white mb-3">${title}</h4>
       <div class="row flex-nowrap">
         ${cardList()}
       </div>
