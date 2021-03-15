@@ -11,27 +11,35 @@ function Playbar() {
                <p class="m-0" style="color: #ccc; font-size:12px;" >Queen</p>
             </div>
            </div>
-           <div id="middle d-flex flex-column" style="width:50%;">
+           <div id="middle d-flex flex-column" style="width:50%; padding-top:20px;">
               <div id="top" class="d-flex justify-content-center">
               <img class="mx-2" src="./assets/assets-playerbar/shuffle.svg" alt=""/>
-              <img class="mx-2" src="./assets/assets-playerbar/previous_track.svg" alt=""/>
-              <img class="mx-2" style="height:30px; width: 30px;" src="./assets/assets-playerbar/playbutton.svg" alt=""/>
-              <img class="mx-2" src="./assets/assets-playerbar/next_track.svg" alt=""/>
+              <img class="mx-3" src="./assets/assets-playerbar/previous_track.svg" alt=""/>
+              <div  style="height:34px; width=34px; border:1px solid white; border-radius: 50%; position:relative;">
+               <img class="mx-2" style="height:20px; width: 20px; padding-top:4px;" src="./assets/assets-playerbar/playbutton.svg" alt=""/>
+              </div>
+              <img class="mx-3" src="./assets/assets-playerbar/next_track.svg" alt=""/>
               <img class="mx-2" src="./assets/assets-playerbar/repeat.svg" alt=""/>
             </div>
-              <div id="bottom" >
-                <span id="current-time" class="">00:00</span>
-                <input style="width:80%; height:3px;" type="range" name="" min="0" value="0" max="100" />
-                <span id="total-time" class="">04:18</span>
+              <div id="bottom" class="pt-1 d-flex align-items-center" style="padding-left:20px;">
+                <span id="current-time" class="" style="font-size:11px; padding-right:3px; color: #ccc;">00:00</span>
+                <input style="width:80%; height:5px; -webkit-appearance: none; border-radius: 5px; background: linear-gradient(
+                  90deg
+                  , rgb(29, 185, 84) 100%, rgb(83, 83, 83) 80%);" type="range" name="" min="0" value="0" max="100" />
+                <span id="total-time" class="" style="font-size:11px; padding-left:3px; color: #ccc;">04:18</span>
               </div>
            </div>
-           <div id="right" class="d-flex align-items-center">
-           <img class="mx-2" src="./assets/assets-playerbar/mute.svg" alt=""/>
-           <input style="width:30%; height:3px;" type="range" name="" min="0" value="0" max="100" />
+           <div id="right" class="d-flex align-items-center" style="position:relative; left:40px; top:10px;">
+           <img class="mx-2" style="filter: opacity(0.6);" src="./assets/assets-playerbar/queue_music-white-18dp.svg" alt=""/>
+           <img class="mx-2" style="filter: opacity(0.6);" src="./assets/assets-playerbar/important_devices-white-18dp.svg" alt=""/>
+           <img class="mx-2" style="filter: opacity(0.6);" src="./assets/assets-playerbar/volume.svg" alt=""/>
+           <input style="width:30%; height:3px;  -webkit-appearance: none; border-radius: 1px; background: linear-gradient(
+            90deg
+            , rgb(29, 185, 84) 100%, rgb(83, 83, 83) 80%);" type="range" name="" min="0" value="0" max="100" />
            </div>
          </div>
 
-    `
+    `;
 }
 
-export { Playbar }
+export { Playbar };

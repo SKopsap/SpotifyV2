@@ -1,4 +1,4 @@
-@import './components/card_component/card_component.scss';
+@import "./components/card_component/card_component.scss";
 
 // html {
 //   height: 100%;
@@ -20,7 +20,11 @@ nav {
 
 main {
   background: rgb(18, 18, 18);
-  background: linear-gradient(0deg, rgba(18, 18, 18, 1) 42%, rgba(77, 15, 28, 0.97) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(18, 18, 18, 1) 42%,
+    rgba(77, 15, 28, 0.97) 100%
+  );
   min-width: 100vw;
   min-height: 100vh;
   padding: 2rem !important;
