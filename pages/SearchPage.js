@@ -6,7 +6,8 @@ import { TopNav } from '../components/TopNavComponent.js'
 import { _waitForElement } from '../utils/mutationObserver.js'
 
 export default function SearchPage() {
-  getInitialData()
+  const renderMain = getInitialData
+  const renderSearchFragment = searchFragment
 
   return /*html*/ `
     <div class="d-flex">
@@ -16,7 +17,8 @@ export default function SearchPage() {
       <main class="container-fluid">
         ${TopNav()}
         <div id="filtered">
-          ${searchFragment()}
+          ${renderMain()}
+          ${renderSearchFragment()}
         </div>
       </main>
       <footer> 
